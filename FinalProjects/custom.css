@@ -1,0 +1,258 @@
+
+.narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.btn-md {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.section-header h3 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;    
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+#about {
+    background: url("img/about-bg.jpg") center top no-repeat fixed;
+    background-size: cover;
+    padding: 60px 0 40px 0;
+    position: relative;
+  }
+  
+  #about::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.92);
+    z-index: 9;
+  }
+  
+  #about .container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  #about .about-col {
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+  }
+  
+  #about .about-col .img {
+    position: relative;
+  }
+  
+  #about .about-col .img img {
+    border-radius: 4px 4px 0 0;
+  }
+  
+  #about .about-col .icon {
+    width: 64px;
+    height: 64px;
+    padding-top: 8px;
+    text-align: center;
+    position: absolute;
+    background-color: #18d26e;
+    border-radius: 50%;
+    text-align: center;
+    border: 4px solid #fff;
+    left: calc( 50% - 32px);
+    bottom: -30px;
+    transition: 0.3s;
+  }
+  
+  #about .about-col i {
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  #about .about-col:hover .icon {
+    background-color: #fff;
+  }
+  
+  #about .about-col:hover i {
+    color: #18d26e;
+  }
+  
+  #about .about-col h2 {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0;
+    margin: 40px 0 12px 0;
+  }
+  
+  #about .about-col h2 a {
+    color: #000;
+  }
+  
+  #about .about-col h2 a:hover {
+    color: #18d26e;
+  }
+  
+  #about .about-col p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 0;
+    padding: 0 20px 20px 20px;
+  }
+
+   /* Exercise 1 */
+
+   .backImg {
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/coding-1.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;     
+    position: relative;
+}
+
+.profile {
+    width: 360px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px 0;
+    position: relative;
+    border-radius: 10%;
+}
+
+.profileText {
+    margin-bottom: 10px;
+}
+
+.profileText h2 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.profileText h3 {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.imgProfile{
+    height: 250px;
+    border-radius: 70%;
+    margin-bottom: 20px;
+}
+
+i {
+    color: white;
+}
+
+/* Exercise 2 */
+
+.calc-btn {
+  background-color: silver;
+  color: black;
+  width: 25px;
+  height: 45px;
+  border: 1px solid gray;
+  text-align: center;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: 100;
+  padding-top: 3px;
+}
+
+.calc-btn:hover{
+  background-color: orange;
+}
+
+.rows {
+  display: table;
+  table-layout: fixed;
+  width: 200px;
+}
+
+.column {
+  display: table-cell;
+}
+
+#calc-zero {
+  width: 51.66666667px;
+  border-radius: 0 0 0 7px;
+
+}
+
+#calc-clear {
+  width: 51.66666667px;
+}
+
+#calc-display-val {
+  height: 80px; color: white;
+  text-align: right;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+  font-size: 48px;
+  background-color: #383838;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 12px;
+  border-radius: 7px 7px 0 0;
+}
+
+.calc-btn-operator {
+  background-color: orange;
+  color: white;
+}
+
+.titleCal {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#calc-equals {
+  border-radius: 0 0 7px 0;
+}
+
+#calc-parent {
+  margin-left: calc(50% - 100px);
+}
+
+.searchClass {
+  margin-top: 100px;
+}
